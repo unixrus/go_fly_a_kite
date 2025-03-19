@@ -43,7 +43,7 @@ func main() {
 	fmt.Println("value of x1 ", x1)
 	fmt.Println("mem location addrOfx ", addrOfx)  // mem loc of x1 operator
 	fmt.Println("contents of location ", *addrOfx) // pointer indirection opertor
-	*addrOfx = "bye"                               // change contents of mem loc
+	*addrOfx = "bye"                               // indirection operator (*) to change contents of mem loc
 	fmt.Println("value of x1 ", x1)
 	/*
 		value of x1  hello
