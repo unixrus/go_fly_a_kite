@@ -3,6 +3,7 @@ arrays
 - index start at 0 for first elemtn like py
 - fixed in length at initialization
 - fixed type of elements
+- assigning arrays to another var create a copy
 */
 package main
 
