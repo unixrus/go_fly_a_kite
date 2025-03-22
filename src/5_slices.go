@@ -96,4 +96,6 @@ this slice is nil?  false
 // len=6 cap=12 [50 6 7 8 9 10]
 // len=6 cap=6 [11 12 0 0 0 0]
 
+more experiments --> https://go.dev/tour/moretypes/15
+
 */
