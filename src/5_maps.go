@@ -1,5 +1,5 @@
 /*
-map literal
+map literal data type
   - key value pairs akin dictionary in py
     map[ data type for key followed by value type]
     map [string]int
