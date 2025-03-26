@@ -1,5 +1,6 @@
 /*
 err handling
+- handle custom errors with errors.New
 */
 package main
 

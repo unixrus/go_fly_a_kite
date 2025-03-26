@@ -1,9 +1,11 @@
 /*
 error handling
+- use errors pkg
 */
 package main
 
 import (
+	"errors"
 	"fmt"
 	"log"
 	"os"
@@ -23,4 +25,14 @@ func main() {
 	}
 	fmt.Println("file opened:", thefile.Name())
 
+	// use errors pkg for known conditions
+	if _, err := os.Open("/tmp/abc1.txt"); err != nil {
+		if errors.Is(err, os.ErrNotExist) {
+			log.Println("custom err msg --> file does not exist")
+		} else {
+			log.Println(err) // other than a missing file error
+		}
+		return
+	}
+	fmt.Print("file opened successfully\n")
 }
