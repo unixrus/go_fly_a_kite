@@ -1,3 +1,14 @@
+// test project of creating a pkg and a nested pkg
+
+Summary: Go modules 
+- used for go's Dependency Management system.
+- modules are level higher and simply a collection of packages.
+- packages are stored on a FS in a directory tree structure.
+- module definition - go.mod file is located at the modules root directory
+- the go.mod file defines the modules dependency requirements, etc.
+
+$ pwd
+TSTPRJ
 
 $ mkdir -p mypkg/nstpkg
 
