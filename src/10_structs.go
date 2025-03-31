@@ -31,5 +31,5 @@ func main() {
 	fmt.Println(c) // {6 7.9 4.2}
 
 	ptr.depth = 9
-	fmt.Println(c) // {6 7.9 4.2}
+	fmt.Println(c) // {9 7.9 4.2}
 }
